@@ -1,0 +1,50 @@
+body {
+    width: 960px;
+    margin: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;  
+    color: aqua;
+  }
+  
+  .header-logo {
+    width: 100px;
+    display: block;
+    margin: auto;
+  }
+  
+  header nav ul li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  header nav ul {
+    text-align: center;
+  }
+  
+  p {
+    line-height: 30px;
+  }
+  
+  main p:nth-child(2) {
+    color: brown;
+  }
+  main ul li:nth-child(odd) {
+    background: beige;
+  }
+  
+  main ul li:nth-child(even) {
+    background: blueviolet;
+    border-radius: 5px;
+  }
+  
+  p span {
+    color: chartreuse;
+    font-weight: 700;
+  }
+  
+  footer {
+    text-align: center;
+  }
