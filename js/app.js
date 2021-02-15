@@ -10,7 +10,7 @@ alert('Welcome'+' '+userName);
 
 
 
-let userAge = prompt('Entter your age please?');
+let userAge = prompt('Enter your age please?');
 //console.log(userAge);
 alert('your age is :'+' '+userAge);
 
