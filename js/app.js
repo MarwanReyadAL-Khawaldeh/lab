@@ -7,7 +7,7 @@ console.log(userName);
 
 // userName = userName.toLowerCase();
 
-if (userName.toLowerCase() == 'marwan') {
+if (userName.toLowerCase() == '') {
   alert('Welcome'+' '+userName);
 } else {
   alert('Please write your name correctly');
