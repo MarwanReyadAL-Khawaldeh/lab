@@ -3,9 +3,9 @@
  
 
 let userName = prompt('Please enter your name?');
-console.log(userName);
+//console.log(userName);
 alert('Welcome'+' '+userName);
-// userName = userName.toLowerCase();
+
   
 
 
