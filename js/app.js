@@ -20,7 +20,7 @@ alert('your age is :'+' '+userAge);
 
 
 
-let goodFrined=prompt('Do you think I am a good friend? :YES');
+let goodFrined=prompt('Do you think I am a good friend? :YES/NO');
 if(goodFrined.toLocaleLowerCase() =='yes'){
   alert('Thank you Bro')
   console.log(goodFrined);
@@ -29,7 +29,7 @@ if(goodFrined.toLocaleLowerCase() =='yes'){
   console.log(goodFrined);
 }
 
-let loveCoffe = prompt ("Do i love coffe? :YES");
+let loveCoffe = prompt ("Do i love coffe? :YES/NO");
 
 if(loveCoffe.toLowerCase() == 'yes'){
 alert("you are good");
@@ -39,7 +39,7 @@ console.log(loveCoffe);
     console.log(loveCoffe);
 }
 
-let ownBusiness=prompt('Do you think I can start my own business in the future? :YES')
+let ownBusiness=prompt('Do you think I can start my own business in the future? :YES/NO')
 
 if(ownBusiness.toLowerCase() =='yes'){
   alert('Thank you for holding that I can do it')
@@ -49,7 +49,7 @@ if(ownBusiness.toLowerCase() =='yes'){
     console.log(ownBusiness);
 }
 
-let toSwim=prompt('Am I good at swimming? :YES')
+let toSwim=prompt('Am I good at swimming? :YES/NO')
 
 if(toSwim.toLocaleLowerCase() == 'yes'){
   alert('That right ')
@@ -59,7 +59,7 @@ if(toSwim.toLocaleLowerCase() == 'yes'){
   console.log(toSwim);
 }
 
-let asksHelp = prompt('If a stranger suddenly came to me and asks for help, would I help him?? :YES')
+let asksHelp = prompt('If a stranger suddenly came to me and asks for help, would I help him?? :YES/NO')
 if(asksHelp.toLocaleLowerCase() == 'yes'){
   alert('Thats right we must help other if you can');
   console.log(asksHelp);
