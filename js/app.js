@@ -4,13 +4,11 @@
 
 let userName = prompt('Please enter your name?');
 console.log(userName);
-
+alert('Welcome'+' '+userName);
 // userName = userName.toLowerCase();
+  
 
-if (userName == '') {
-  alert('Welcome'+' '+userName);
-  console.log(userName);
-} 
+
 
 let userAge = prompt('Entter your age please?');
 console.log(userAge);
