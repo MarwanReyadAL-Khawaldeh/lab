@@ -1,6 +1,7 @@
 body {
     width: 960px;
     margin: auto;
+    background-color: brown;
   }
   
   a {
@@ -26,22 +27,27 @@ body {
   
   p {
     line-height: 30px;
+    
   }
   
-  main p:nth-child(2) {
-    color: brown;
+
+  #num1{
+    background-color: burlywood;
   }
-  main ul li:nth-child(odd) {
-    background: beige;
+  #num2{
+    background-color: chocolate;
   }
-  
-  main ul li:nth-child(even) {
-    background: blueviolet;
-    border-radius: 5px;
+  #num3{
+    background-color: cornflowerblue;
   }
-  
+  #num4{
+    background-color: crimson;
+  }
+  #num5{
+    background-color: gold;
+  }
   p span {
-    color: chartreuse;
+    color:gold;
     font-weight: 700;
   }
   
