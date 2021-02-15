@@ -7,11 +7,10 @@ console.log(userName);
 
 // userName = userName.toLowerCase();
 
-if (userName.toLowerCase() == '') {
+if (userName == '') {
   alert('Welcome'+' '+userName);
-} else {
-  alert('Please write your name correctly');
-}
+  console.log(userName);
+} 
 
 let userAge = prompt('Entter your age please?');
 console.log(userAge);
