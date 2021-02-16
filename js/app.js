@@ -113,23 +113,24 @@ if (gussNumber !== '7') {
 }
 
 
-let arr = ['Football', 'Swimming', 'Basketball', 'tennis'];
+let arr = ['football', 'swimming', 'basketball', 'tennis', 'golf', 'boxing', 'bowling', 'horse racing', 'judo'];
 
 let gussSport;
-
 let guss = 0;
 while (guss < 6) {
   gussSport = prompt('Guess What is my favorite sport?');
-
   if (gussSport === arr[0]) {
     alert('Correct the Football is my favorite sport');
     counter = counter + 1;
-
     break;
+
   }
 
   if (gussSport === arr[1]) {
-    alert('Error the Swimming is not my favorite sport');
+    alert('Correct the Swimming is my favorite sport');
+    counter = counter + 1;
+    break;
+
 
   }
   if (gussSport === arr[2]) {
@@ -140,16 +141,43 @@ while (guss < 6) {
     alert('Error the Tennis is not my favorite sport');
 
   }
+  if (gussSport === arr[4]) {
+    alert('Error the Golf is not my favorite sport');
 
+  }
+  if (gussSport === arr[5]) {
+    alert('Error the Boxing is not my favorite sport');
+
+  }
+  if (gussSport === arr[6]) {
+    alert('Error the Bowling is not my favorite sport');
+
+  }
+  if (gussSport === arr[7]) {
+    alert('Correct the Horse Racing is my favorite sport');
+    counter = counter + 1;
+    break;
+
+
+  }
+  if (gussSport === arr[8]) {
+    alert('Error the Judo is not my favorite sport');
+
+
+  }
   ++guss;
 }
 
-if (gussSport !== arr[0]) {
-  alert('You have exhausted all your attempts,The correct answer is Football');
+if (gussSport !== arr[0] && gussSport !== arr[1] && gussSport !== arr[7]) {
+  alert('You have exhausted all your attempts');
 
 }
 
 alert('your result is : ' + ' ' + counter);
+
+
+
+
 
 
 
