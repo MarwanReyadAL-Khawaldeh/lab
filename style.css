@@ -54,3 +54,25 @@ body {
   footer {
     text-align: center;
   }
+
+  .ord__list li:nth-child(odd){
+    background-color: cyan;
+    color: darkred;
+    text-align: center;
+  }
+  .ord__list li:nth-child(even){
+    background-color: gold;
+    color: orangered;
+    text-align: center;
+  }
+
+  .unord___list li:nth-child(odd){
+    background-color: peru;
+    color: red;
+    text-align: center;
+  }
+   .unord___list li:nth-child(even){
+    background-color: tomato;
+    color: yellow;
+    text-align: center;
+  }
