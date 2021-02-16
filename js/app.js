@@ -36,7 +36,7 @@ if (loveCoffe.toLowerCase() === 'yes') {
   //console.log(loveCoffe);
 }
 
-let ownBusiness = prompt('Do you think I can start my own business in the future? :YES/NO')
+let ownBusiness = prompt('Do you think I can start my own business in the future? :YES/NO');
 
 if (ownBusiness.toLowerCase() === 'yes') {
   alert('Thank you for holding that I can do it');
@@ -57,7 +57,7 @@ if (toSwim.toLocaleLowerCase() === 'yes') {
   //console.log(toSwim);
 }
 
-let asksHelp = prompt('If a stranger suddenly came to me and asks for help, would I help him?? :YES/NO')
+let asksHelp = prompt('If a stranger suddenly came to me and asks for help, would I help him?? :YES/NO');
 if (asksHelp.toLocaleLowerCase() === 'yes') {
   alert('Thats right we must help other if you can');
   //console.log(asksHelp);
