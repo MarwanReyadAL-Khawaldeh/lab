@@ -19,7 +19,7 @@ alert('your age is :' + ' ' + userAge);
 
 const niceFriend = function () {
   let goodFrined = prompt('Do you think I am a good friend? :YES/NO');
-  while (goodFrined.toLocaleLowerCase() === 'no' && goodFrined.toLocaleLowerCase() === 'n'||goodFrined.toLocaleLowerCase()==='yes'||goodFrined.toLocaleLowerCase()==='y') {
+  while (goodFrined.toLocaleLowerCase() === 'no' || goodFrined.toLocaleLowerCase() === 'n' || goodFrined.toLocaleLowerCase() === 'yes' || goodFrined.toLocaleLowerCase() === 'y') {
 
     if (goodFrined.toLocaleLowerCase() === 'yes' || goodFrined.toLocaleLowerCase() === 'y') {
 
@@ -27,10 +27,9 @@ const niceFriend = function () {
       counter = counter + 1;
       break;
 
-    } else {
+    } else if(goodFrined.toLocaleLowerCase() === 'no' || goodFrined.toLocaleLowerCase() === 'n'){
       alert('I am sorry that I am not a good friend');
       break;
-
     }
   }
 };
@@ -39,7 +38,7 @@ niceFriend();
 
 const coffeeLover = function () {
   let loveCoffe = prompt('Do i love coffe? :YES/NO');
-  while (loveCoffe.toLocaleLowerCase() === 'no' && loveCoffe.toLocaleLowerCase() === 'n'||loveCoffe.toLocaleLowerCase()==='yes'||loveCoffe.toLocaleLowerCase()==='y') {
+  while (loveCoffe.toLocaleLowerCase() === 'no' || loveCoffe.toLocaleLowerCase() === 'n' || loveCoffe.toLocaleLowerCase() === 'yes' || loveCoffe.toLocaleLowerCase() === 'y') {
 
     if (loveCoffe.toLowerCase() === 'yes' || loveCoffe.toLocaleLowerCase() === 'y') {
       alert('you are good');
@@ -47,9 +46,10 @@ const coffeeLover = function () {
       break;
 
 
-    } else {
+    } else if(loveCoffe.toLowerCase() === 'no' || loveCoffe.toLocaleLowerCase() === 'n') {
       alert('you are wrong I love coffee very much');
       break;
+
 
     }
   }
@@ -58,36 +58,38 @@ coffeeLover();
 
 const career = function () {
   let ownBusiness = prompt('Do you think I can start my own business in the future? :YES/NO');
-  while (ownBusiness.toLocaleLowerCase() !== 'no' || ownBusiness.toLocaleLowerCase() !== 'n'||ownBusiness.toLocaleLowerCase()==='yes'||ownBusiness.toLocaleLowerCase()==='y') {
+  while (ownBusiness.toLocaleLowerCase() !== 'no' || ownBusiness.toLocaleLowerCase() !== 'n' || ownBusiness.toLocaleLowerCase() === 'yes' || ownBusiness.toLocaleLowerCase() === 'y') {
 
     if (ownBusiness.toLowerCase() === 'yes' || ownBusiness.toLocaleLowerCase() === 'y') {
       alert('Thank you for holding that I can do it');
       counter = counter + 1;
       break;
 
-      //console.log(ownBusiness);
+
     }
-    else {
+    else if (ownBusiness.toLowerCase() === 'no' || ownBusiness.toLocaleLowerCase() === 'n') {
       alert('So what should I do');
-      break
-      //console.log(ownBusiness);
+      break;
+
+
     }
   }
 };
 career();
 const swimming = function () {
   let toSwim = prompt('Am I good at swimming? :YES/NO');
-  while (toSwim.toLocaleLowerCase() === 'no' || toSwim.toLocaleLowerCase() === 'n'||toSwim.toLocaleLowerCase()==='yes'||toSwim.toLocaleLowerCase()==='y') {
+  while (toSwim.toLocaleLowerCase() === 'no' || toSwim.toLocaleLowerCase() === 'n' || toSwim.toLocaleLowerCase() === 'yes' || toSwim.toLocaleLowerCase() === 'y') {
 
     if (toSwim.toLocaleLowerCase() === 'yes' || toSwim.toLocaleLowerCase() === 'y') {
       alert('That right ');
       counter = counter + 1;
       break;
-      //console.log(toSwim)
-    } else {
+
+    } else if (toSwim.toLocaleLowerCase() === 'no' || toSwim.toLocaleLowerCase() === 'n') {
       alert('you are wrong');
       break;
-      //console.log(toSwim);
+
+
     }
   }
 };
@@ -95,17 +97,18 @@ swimming();
 
 const helpOthers = function () {
   let asksHelp = prompt('If a stranger suddenly came to me and asks for help, would I help him?? :YES/NO');
-  while (asksHelp.toLocaleLowerCase() === 'no' || asksHelp.toLocaleLowerCase() === 'n'||asksHelp.toLocaleLowerCase()==='yes'||asksHelp.toLocaleLowerCase()==='y') {
+  while (asksHelp.toLocaleLowerCase() === 'no' || asksHelp.toLocaleLowerCase() === 'n' || asksHelp.toLocaleLowerCase() === 'yes' || asksHelp.toLocaleLowerCase() === 'y') {
 
     if (asksHelp.toLocaleLowerCase() === 'yes' || asksHelp.toLocaleLowerCase() === 'y') {
       alert('Thats right we must help other if we can');
       counter = counter + 1;
       break;
-      //console.log(asksHelp);
-    } else if (asksHelp.toLocaleLowerCase() === 'no') {
+
+    } else if (asksHelp.toLocaleLowerCase() === 'no' || asksHelp.toLocaleLowerCase() === 'n') {
       alert('you are wrong man ');
-      break
-      //console.log(asksHelp);
+      break;
+
+
     }
 
   }
