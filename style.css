@@ -1,78 +1,88 @@
 body {
-    width: 960px;
-    margin: auto;
-    background-color: brown;
-  }
-  
-  a {
-    text-decoration: none;
-    text-transform: uppercase;  
-    color: aqua;
-  }
-  
-  .header-logo {
-    width: 100px;
-    display: block;
-    margin: auto;
-  }
-  
-  header nav ul li {
-    display: inline;
-    padding: 10px;
-  }
-  
-  header nav ul {
-    text-align: center;
-  }
-  
-  p {
-    line-height: 30px;
-    
-  }
-  
+  width: 960px;
+  margin: auto;
+  background-color: brown;
+}
 
-  #num1{
-    background-color: burlywood;
-  }
-  #num2{
-    background-color: chocolate;
-  }
-  #num3{
-    background-color: cornflowerblue;
-  }
-  #num4{
-    background-color: crimson;
-  }
-  #num5{
-    background-color: gold;
-  }
-  p span {
-    color:gold;
-    font-weight: 700;
-  }
+a {
+  text-decoration: none;
+  text-transform: uppercase;  
+  color: aqua;
+}
+
+.header-logo {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 10px;
+}
+
+header nav ul {
+  text-align: center;
+}
+
+p {
+  line-height: 30px;
   
-  footer {
-    text-align: center;
-  }
+}
 
-  .ord__list li:nth-child(odd){
-    background-color: cyan;
-    color: darkred;
-    text-align: center;
-  }
-  .ord__list li:nth-child(even){
-    background-color: gold;
-    color: orangered;
-    text-align: center;
-  }
 
-  .unord___list li:nth-child(odd){
-    background-color: peru;
-    color: red;
-    text-align: center;
-  }
-   .unord___list li:nth-child(even){
-    background-color: tomato;
-    color: yellow;
-    text-align: center;
-  }
+#num1{
+  background-color: burlywood;
+}
+#num2{
+  background-color: chocolate;
+}
+#num3{
+  background-color: cornflowerblue;
+}
+#num4{
+  background-color: crimson;
+}
+#num5{
+  background-color: gold;
+}
+p span {
+  color:gold;
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+}
+
+.ord__list li:nth-child(odd){
+  background-color: cyan;
+  color: darkred;
+  text-align: center;
+}
+.ord__list li:nth-child(even){
+  background-color: gold;
+  color: orangered;
+  text-align: center;
+}
+
+.unord___list li:nth-child(odd){
+  background-color: peru;
+  color: red;
+  text-align: center;
+}
+ .unord___list li:nth-child(even){
+  background-color: tomato;
+  color: yellow;
+  text-align: center;
+}
+.unord___list{
+  border-style: dotted;
+  border-width: 15px 10px 10px 15px;
+  border-color:lawngreen;
+}
+.ord__list{
+  border-style: dotted;
+  border-width: 15px 10px 10px 15px;
+  border-color:aqua;
+}
