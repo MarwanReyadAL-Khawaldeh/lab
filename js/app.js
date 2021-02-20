@@ -14,20 +14,20 @@ let userAge = prompt('Enter your age please?');
 console.log(userAge);
 alert('your age is :' + ' ' + userAge);
 
-
+let goodFrined = prompt('Do you think I am a good friend? :YES/NO');
 
 
 const niceFriend = function () {
-  let goodFrined = prompt('Do you think I am a good friend? :YES/NO');
-  while (goodFrined.toLocaleLowerCase() === 'no' || goodFrined.toLocaleLowerCase() === 'n' || goodFrined.toLocaleLowerCase() === 'yes' || goodFrined.toLocaleLowerCase() === 'y') {
 
+  while (goodFrined.toLocaleLowerCase() !== 'no' && goodFrined.toLocaleLowerCase() !== 'n' && goodFrined.toLocaleLowerCase() !== 'yes' && goodFrined.toLocaleLowerCase() !== 'y') {
+    goodFrined = prompt('Do you think I am a good friend? :YES/NO');
     if (goodFrined.toLocaleLowerCase() === 'yes' || goodFrined.toLocaleLowerCase() === 'y') {
 
       alert('Thank you Bro');
       counter = counter + 1;
       break;
 
-    } else if(goodFrined.toLocaleLowerCase() === 'no' || goodFrined.toLocaleLowerCase() === 'n'){
+    } else if (goodFrined.toLocaleLowerCase() === 'no' || goodFrined.toLocaleLowerCase() === 'n') {
       alert('I am sorry that I am not a good friend');
       break;
     }
@@ -35,18 +35,18 @@ const niceFriend = function () {
 };
 
 niceFriend();
+let loveCoffe = prompt('Do i love coffe? :YES/NO');
+const CoffeeLove = function () {
 
-const coffeeLover = function () {
-  let loveCoffe = prompt('Do i love coffe? :YES/NO');
-  while (loveCoffe.toLocaleLowerCase() === 'no' || loveCoffe.toLocaleLowerCase() === 'n' || loveCoffe.toLocaleLowerCase() === 'yes' || loveCoffe.toLocaleLowerCase() === 'y') {
-
+  while (loveCoffe.toLocaleLowerCase() !== 'no' && loveCoffe.toLocaleLowerCase() !== 'n' && loveCoffe.toLocaleLowerCase() !== 'yes' && loveCoffe.toLocaleLowerCase() !== 'y') {
+    loveCoffe = prompt('Do i love coffe? :YES/NO');
     if (loveCoffe.toLowerCase() === 'yes' || loveCoffe.toLocaleLowerCase() === 'y') {
       alert('you are good');
       counter = counter + 1;
       break;
 
 
-    } else if(loveCoffe.toLowerCase() === 'no' || loveCoffe.toLocaleLowerCase() === 'n') {
+    } else if (loveCoffe.toLowerCase() === 'no' || loveCoffe.toLocaleLowerCase() === 'n') {
       alert('you are wrong I love coffee very much');
       break;
 
@@ -54,12 +54,12 @@ const coffeeLover = function () {
     }
   }
 };
-coffeeLover();
-
+CoffeeLove();
+let ownBusiness = prompt('Do you think I can start my own business in the future? :YES/NO');
 const career = function () {
-  let ownBusiness = prompt('Do you think I can start my own business in the future? :YES/NO');
-  while (ownBusiness.toLocaleLowerCase() !== 'no' || ownBusiness.toLocaleLowerCase() !== 'n' || ownBusiness.toLocaleLowerCase() === 'yes' || ownBusiness.toLocaleLowerCase() === 'y') {
 
+  while (ownBusiness.toLocaleLowerCase() !== 'no' && ownBusiness.toLocaleLowerCase() !== 'n' && ownBusiness.toLocaleLowerCase() !== 'yes' && ownBusiness.toLocaleLowerCase() !== 'y') {
+    ownBusiness = prompt('Do you think I can start my own business in the future? :YES/NO');
     if (ownBusiness.toLowerCase() === 'yes' || ownBusiness.toLocaleLowerCase() === 'y') {
       alert('Thank you for holding that I can do it');
       counter = counter + 1;
@@ -76,10 +76,11 @@ const career = function () {
   }
 };
 career();
+let toSwim = prompt('Am I good at swimming? :YES/NO');
 const swimming = function () {
-  let toSwim = prompt('Am I good at swimming? :YES/NO');
-  while (toSwim.toLocaleLowerCase() === 'no' || toSwim.toLocaleLowerCase() === 'n' || toSwim.toLocaleLowerCase() === 'yes' || toSwim.toLocaleLowerCase() === 'y') {
 
+  while (toSwim.toLocaleLowerCase() !== 'no' && toSwim.toLocaleLowerCase() !== 'n' && toSwim.toLocaleLowerCase() !== 'yes' && toSwim.toLocaleLowerCase() !== 'y') {
+    toSwim = prompt('Am I good at swimming? :YES/NO');
     if (toSwim.toLocaleLowerCase() === 'yes' || toSwim.toLocaleLowerCase() === 'y') {
       alert('That right ');
       counter = counter + 1;
@@ -94,10 +95,11 @@ const swimming = function () {
   }
 };
 swimming();
-
+let asksHelp = prompt('If a stranger suddenly came to me and asks for help, would I help him?? :YES/NO');
 const helpOthers = function () {
-  let asksHelp = prompt('If a stranger suddenly came to me and asks for help, would I help him?? :YES/NO');
-  while (asksHelp.toLocaleLowerCase() === 'no' || asksHelp.toLocaleLowerCase() === 'n' || asksHelp.toLocaleLowerCase() === 'yes' || asksHelp.toLocaleLowerCase() === 'y') {
+
+  while (asksHelp.toLocaleLowerCase() !== 'no' && asksHelp.toLocaleLowerCase() !== 'n' && asksHelp.toLocaleLowerCase() !== 'yes' && asksHelp.toLocaleLowerCase() !== 'y') {
+    asksHelp = prompt('If a stranger suddenly came to me and asks for help, would I help him?? :YES/NO');
 
     if (asksHelp.toLocaleLowerCase() === 'yes' || asksHelp.toLocaleLowerCase() === 'y') {
       alert('Thats right we must help other if we can');
